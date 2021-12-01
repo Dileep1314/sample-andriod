@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: dileep-agent
+  name: dileep-agent
 
 steps:
 - task: Gradle@2
